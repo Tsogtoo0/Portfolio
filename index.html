@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title> TSOGTOO </title>
+</head>
+<body>
+   <div class="container">
+
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">TSOGTOO</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Нүүр</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Миний тухай</a>
+                    <div class="circle"></div>
+                </li>
+                
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Холбоо барих</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn"><a href="assets/images/CV.png">CV татах<i class="uil uil-file-alt"></i></a></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+    <main class="wrapper">
+      
+         <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>TSOGTOO</span>
+            </div>
+            <div class="featured-name">
+                <p> Би <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p> Аливаа зүйлд тууштай байх нь таныг амжилтанд хүргэнэ.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Ажилд авах</button>
+                <button class="btn"><a href="assets/images/CV.png">CV татах<i class="uil uil-file-alt"></i></a></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><a href="https://www.instagram.com/baji___n/"><i class="uil uil-instagram"></i></a></div>
+                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100041133321627"><i class="uil uil-facebook-f"></i></a></div>
+                <div class="icon"><a href="https://mail.google.com/mail/u/0/#inbox"><i class="uil uil-mailbox"></i></a></div>
+                <div class="icon"><a href="https://github.com/Tsogtoo0"><i class="uil uil-github-alt"></i></a></div>
+                
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Доошлуулах</p>
+            </a>
+          </div>
+
+       </section>
+
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>Миний тухай</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Миний танилцуулга</h3>
+                    <p> Намайг Цогтбаатар гэдэг. Би ИЗОУИС-ийн КПХ 323Б бүлгийн оюутан
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>PHP</span>
+                        <span>JAVA</span>
+                        <span>Python</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+     
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1> Надтай холбогдоорой </h1>
+            <span> Танд ямар нэг асуух зүйл байгаа бол энд холбогдоорой</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2> Холбоо барих <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: tsogtoonar@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +976 9930 3878 </p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Нэр">
+                        <input type="text" class="input-field" placeholder="Мэйл">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Мессэж"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn"> Илгээх <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <p>TSOGTOO.</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Нүүр</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">Тухай</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Холбоо барих</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="https://www.instagram.com/baji___n/"><i class="uil uil-instagram"></i></a></div>
+            <div class="icon"><a href="https://www.facebook.com/profile.php?id=100041133321627"><i class="uil uil-facebook-f"></i></a></div>
+            <div class="icon"><a href="https://mail.google.com/mail/u/0/#inbox"><i class="uil uil-mailbox"></i></a></div>
+            <div class="icon"><a href="https://github.com/Tsogtoo0"><i class="uil uil-github-alt"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p> &copy; <a href="#home" style="text-decoration: none;">TSOGTOO</a> </p>
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
